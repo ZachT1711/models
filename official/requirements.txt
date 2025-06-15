@@ -19,3 +19,4 @@ opencv-python-headless
 pyyaml
 Pillow
 -e git+https://github.com/cocodataset/cocoapi#egg=pycocotools&subdirectory=PythonAPI
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
